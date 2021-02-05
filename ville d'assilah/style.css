@@ -44,10 +44,13 @@
       position: relative;
       text-align: center;
       margin-top: 10%;
-font-size: larger;
-color: black;
+      font-size: larger;
+
       
      
+    }
+    .city h1{
+      color: black;
     }
       
     
