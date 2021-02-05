@@ -2,7 +2,10 @@
     box-sizing: border-box;
     margin: 0;
   }
-  
+  #bt{
+    color: white;
+    text-decoration: none;
+  }
   .row::after {
     content: "";
     clear: both;
@@ -23,8 +26,7 @@
  
   .header{
    
-    top: 0;
-    left: 0;
+  
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -38,7 +40,15 @@
       background-size: cover;
       background-repeat: no-repeat;
     }
-    
+    .city{
+      position: relative;
+      text-align: center;
+      margin-top: 10%;
+font-size: larger;
+color: black;
+      
+     
+    }
       
     
   
@@ -61,7 +71,7 @@
   }
   
   .menu li:hover {
-    background-color: #0099cc;
+   cursor: pointer;
   }
   
   .aside {
